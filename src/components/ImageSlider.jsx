@@ -88,8 +88,12 @@ const ImageSlider = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-10 flex flex-col justify-center items-center text-center text-white p-4">
-              <h2 className="text-3xl font-extrabold  mb-4">{slide.title}</h2>
-              <p className="text-lg mb-4">{slide.description}</p>
+              <h2 className="text-3xl font-extrabold lg:mb- lg:w-1/2 mb-4">
+                {slide.title}
+              </h2>
+              <p className="text-lg mb-4 lg:mb-[500px] lg:text-2xl">
+                {slide.description}
+              </p>
               <Link to="/signup">
                 <button className=" text-[#fff] h-10  px-10 rounded-xl bg-[#0E0AE6] shadow-lg shadow-[#0E0AE6] bg-gradient-to-r from-[#09AB46] to-[#04FF2D]">
                   Register with Us

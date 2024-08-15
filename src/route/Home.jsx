@@ -36,7 +36,7 @@ export default function Home() {
       </div>
       <div className="flex flex-row gap-3 md:gap-6  lg:gap-6 mt-6 mb-10 justify-center">
         <div className="border h-1 w-14 md:w-[250px] lg:w-[480px] border-[#09AB46] bg-[#09AB46] mt-3  " />
-        <div className="text-[#09AB46] font-medium text-lg ">
+        <div className="text-[#09AB46] text-center font-medium text-lg ">
           Explore Our Unique Services
         </div>
         <div className="border h-1 w-14 md:w-[250px] lg:w-[480px] border-[#09AB46] bg-[#09AB46] mt-3 "></div>
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="border h-1 w-28 md:w-[500px] lg:w-[550px] border-[#09AB46] bg-[#09AB46] mt-3 "></div>
           </div>
         </div>
-        <div className="flex gap-6">
+        <div className="flex gap-6 mb-6">
           <div>
             <p
               className=" border-4 border-solid border-[#09AB46] rounded-3xl p-8 ml-8 text-xl text-[#353D42]

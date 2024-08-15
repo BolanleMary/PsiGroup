@@ -13,7 +13,10 @@ export default function ExploreOurServices() {
         <p className="text-2xl font-bold font-mono mb-5">Care Giver</p>
 
         <p>
-        Our dedicated caregivers offer compassionate, personalized support to enhance the quality of life for individuals. From daily assistance to specialized care, we ensure comfort and well-being with professionalism and empath
+          Our dedicated caregivers offer compassionate, personalized support to
+          enhance the quality of life for individuals. From daily assistance to
+          specialized care, we ensure comfort and well-being with
+          professionalism and empath
         </p>
         <p>
           <Link to="/artisan-list">
@@ -28,7 +31,10 @@ export default function ExploreOurServices() {
         <p className="text-2xl font-bold font-mono mb-5">Mechanic</p>
 
         <p>
-        Our skilled mechanics provide expert repairs and maintenance for all vehicle types. From diagnostics to complex repairs, we ensure your car runs smoothly and reliably. Trust us for quality service and dependable care
+          Our skilled mechanics provide expert repairs and maintenance for all
+          vehicle types. From diagnostics to complex repairs, we ensure your car
+          runs smoothly and reliably. Trust us for quality service and
+          dependable care
         </p>
         <p className=" items-end border-solid border-1 border-inherit ">
           <Link to="/artisan-list">
@@ -43,7 +49,10 @@ export default function ExploreOurServices() {
         <p className="text-2xl font-bold font-mono mb-5">Plumber</p>
 
         <p>
-        Our skilled plumbers handle leaks, clogs, installations, and maintenance with expertise and efficiency. We provide reliable solutions to keep your plumbing systems running smoothly for both homes and businesses.
+          Our skilled plumbers handle leaks, clogs, installations, and
+          maintenance with expertise and efficiency. We provide reliable
+          solutions to keep your plumbing systems running smoothly for both
+          homes and businesses.
         </p>
         <p className=" border-solid border-1 border-inherit ">
           <Link to="/artisan-list">
@@ -55,10 +64,13 @@ export default function ExploreOurServices() {
       </div>
       <div className="p-4 text-white  bg-[#09AB46] border-solid border-2 border-green-600 rounded-xl w-72 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2x">
         <img src={Tailor} alt="" className="w-64 h-44 mb-8" />
-        <p className="text-2xl font-bold font-mono mb-5">Tailor</p>
+        <p className="text-2xl font-bold font-mono mb-5">Fashion Designer</p>
 
         <p>
-        Our skilled tailors provide custom clothing alterations and repairs with precision and care. Whether it's adjusting fit or creating bespoke garments, we ensure each piece meets your style and comfort need
+          Our skilled tailors provide custom clothing alterations and repairs
+          with precision and care. Whether it's adjusting fit or creating
+          bespoke garments, we ensure each piece meets your style and comfort
+          need
         </p>
         <p className=" items-end border-solid border-1 border-inherit ">
           <Link to="/artisan-list">
@@ -73,7 +85,10 @@ export default function ExploreOurServices() {
         <p className="text-2xl font-bold font-mono mb-5">Dry Cleaner</p>
 
         <p>
-        Our professional dry cleaning services ensure your clothes are cleaned with care and precision. We handle all types of fabrics and garments, delivering spotless results and exceptional service. Trust us to keep your wardrobe l
+          Our professional dry cleaning services ensure your clothes are cleaned
+          with care and precision. We handle all types of fabrics and garments,
+          delivering spotless results and exceptional service. Trust us to keep
+          your wardrobe l
         </p>
         <p className=" items-end border-solid border-1 border-inherit ">
           <Link to="/artisan-list">

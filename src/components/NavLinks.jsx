@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import React, { useState } from "react";
+import { FaTimes } from "react-icons/fa";
 
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -151,6 +152,12 @@ const NavLinks = () => {
             >
               Sign in
             </NavLink>
+          </button>
+          <button
+            onClick={toggleMenu}
+            className=" absolute top-4 self-end mr-10 "
+          >
+            <FaTimes className="text-white text-3xl" />
           </button>
         </div>
       </div>
